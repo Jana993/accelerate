@@ -98,8 +98,9 @@ article {
 
 
 /** social menu **/
-#menu-social-media-nav li {
+#menu-social-media-nav li  {
   list-style: none;
+  display: inline;
 }
 
 #menu-social-media-nav li a{
