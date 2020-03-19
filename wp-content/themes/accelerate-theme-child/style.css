@@ -1,0 +1,128 @@
+/*
+Theme Name:   Accelerate Theme Child
+Theme URI:    http://example.com/accelerate-theme-child/
+Description:  Accelerate Child Theme - Accelerate
+Author:   	 Jana Jakobsone
+Author URI:   http://jjakobs.com
+Template: 	accelerate-theme
+Version:      2.0.0
+Tags:     	light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain:  accelerate-theme-child
+*/
+
+/* BODY STYLES */
+#masthead {
+  background: none repeat scroll 0 0 #45ac9d;
+}
+
+
+/* HOMEPAGE STYLES */
+.home-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+}
+
+.button {
+  background: #45ac9d;
+}
+
+/* styling feature section */
+
+
+/* BLOG post */
+.blog-post {
+	width: 50%;
+	float: left;
+	margin-bottom: 2em;
+}
+
+.blog-post h4 {
+    font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+    color: #a6a6a6;
+    text-transform: uppercase;
+    margin: 2em 0 .5em;
+}
+
+.blog-post h3 {
+	font-size: 1.5em;
+}
+
+.read-more-link {
+	font-family: 'Montserrat';
+	font-weight: 700;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+
+
+
+/* CASE StUDIES */
+article {
+  justify-content: center;
+}
+
+ .case-study-sidebar {
+  float: left;
+  width: 300px;
+}
+
+.case-study-sidebar h2 {
+  margin-top: 100px;
+  margin-bottom: 15px;
+  line-height: 25px;
+}
+
+.case-study-sidebar h4 {
+  color: gray;
+  font-weight: lighter;
+  margin: 0;
+  line-height: 16px;
+}
+
+.case-study-sidebar h5 {
+  color: darkgray;
+  font-weight: lighter;
+  margin-top: 15px;
+  text-transform: none;
+
+}
+
+ .case-study-images {
+   float: left;
+  width: 600px;
+}
+
+ img {
+  margin-bottom: 20px;
+  padding: 0 50px 0 50px;
+}
+
+
+/** social menu **/
+#menu-social-media-nav li {
+  list-style: none;
+}
+
+#menu-social-media-nav li a{
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  background-color: gray;
+}
+
+
+/** contact form **/
+#ninja_forms_required_items .nf-field-container {
+  width: 40%;
+}
+
+/** 404 **/
+.fourofour {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.fourofour h1 {
+
+  justify-content: center;
+}
